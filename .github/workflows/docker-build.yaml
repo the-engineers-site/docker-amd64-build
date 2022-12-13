@@ -43,5 +43,7 @@ jobs:
           platforms: ${{ matrix.platforms }}
           push: true
           tags: |
-            ${{ github.repository_owner }}/app:latest
-            ${{ github.repository_owner }}/app:1.1.0
+            yjagdale/app:latest
+            yjagdale/app:1.1.0
+            ghcr.io/yjagdale/app:latest
+            ghcr.io/yjagdale/app:1.1.0
