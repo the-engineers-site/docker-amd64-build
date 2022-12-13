@@ -37,7 +37,7 @@ jobs:
         with:
           context: .
           platforms: linux/amd64,linux/arm64
-          push: false
+          push: true
           tags: |
             ${{ github.repository_owner }}/app:latest
             ${{ github.repository_owner }}/app:1.0.0
